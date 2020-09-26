@@ -1,1 +1,8 @@
 
+{
+  "name": "proxy",
+  "version": 2,
+  "routes": [
+    {"src": "/(.*)","dest": "https://bold-bonus-db68.akaezio.workers.dev"}
+  ]
+}
